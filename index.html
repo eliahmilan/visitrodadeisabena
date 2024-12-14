@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roda de Isábena Apartment | Your Perfect Getaway</title>
+    <meta name="description" content="Stay in a cozy apartment in Roda de Isábena, a charming medieval village in the Spanish Pyrenees. Perfect for nature lovers, hiking enthusiasts, and cultural explorers.">
+    <meta name="keywords" content="Roda de Isábena, Spanish Pyrenees, hiking apartments, nature getaway, medieval village, cozy rental Spain, hiking trails">
+    <meta name="author" content="Roda de Isábena Apartment">
+    <meta name="robots" content="index, follow">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f6f3;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            position: relative;
+            height: 70vh;
+            background: url('banner.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .header-button {
+            margin-top: 20px;
+            background-color: #3b5323;
+            color: white;
+            padding: 20px 40px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            border-radius: 10px;
+            text-decoration: none;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .header-button:hover {
+            background-color: #2a401b;
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 3rem 2rem;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #3b5323;
+            border-bottom: 2px solid #855e42;
+            display: inline-block;
+        }
+
+        .section-paragraph {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .amenities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .amenity {
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .amenity i {
+            color: #3b5323;
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        .about-roda {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 2rem;
+        }
+
+        .about-roda img {
+            width: 40%; /* Adjust size for better alignment */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .button {
+            background-color: #3b5323;
+            color: white;
+            border: none;
+            padding: 25px 50px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 3rem auto;
+            display: block;
+            max-width: 350px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #2a401b;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            background-color: #855e42;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .language-selector {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            z-index: 1000;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 5px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector" id="google_translate_element"></div>
+
+    <header>
+        <h1>Welcome to Roda de Isábena Apartment</h1>
+        <p>Your perfect getaway in the Pyrenees</p>
+        <a href="https://www.airbnb.ie/rooms/1261591800275084326" class="header-button">Book Now</a>
+    </header>
+
+    <section>
+        <h2 class="section-title">About the Apartment</h2>
+        <p class="section-paragraph">This beautifully restored 147 m² duplex in Roda de Isábena offers an authentic yet modern stay. Featuring rustic wooden beams and breathtaking views, it’s the perfect retreat for families, couples, or solo travelers.</p>
+        <ul>
+            <li>Two spacious bedrooms with double beds</li>
+            <li>Wood stove for cozy evenings</li>
+            <li>Fully equipped kitchen with modern appliances</li>
+            <li>Sloped ceilings and natural light</li>
+            <li>Beautiful views of the medieval village and countryside</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery">
+            <img src="gallery1.jpg" alt="Cozy bedroom with wooden beams in Roda de Isábena">
+            <img src="gallery2.jpg" alt="Stunning views of the Pyrenees">
+            <img src="gallery3.jpg" alt="Fully equipped modern kitchen">
+            <img src="gallery4.jpg" alt="Historic streets of Roda de Isábena">
+            <img src="gallery5.jpg" alt="Beautiful living room with wood stove">
+            <img src="gallery6.jpg" alt="Aerial view of Roda de Isábena">
+            <img src="gallery7.jpg" alt="Quiet outdoor space near the apartment">
+            <img src="gallery8.jpg" alt="Master bedroom with rustic charm">
+            <img src="gallery9.jpg" alt="Bright and spacious dining area">
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">About Roda de Isábena</h2>
+        <div class="about-roda">
+            <div>
+                <h3>Why Visit Roda de Isábena?</h3>
+                <ul>
+                    <li>Spain’s smallest village with a cathedral, steeped in history and charm.</li>
+                    <li>Breathtaking views of the Pyrenees for nature and hiking enthusiasts.</li>
+                    <li>Cobblestone streets and preserved medieval architecture.</li>
+                    <li>Authentic Spanish cuisine in local restaurants.</li>
+                </ul>
+                <p>Roda de Isábena is perfect for those seeking nature, history, and tranquility. Discover this hidden gem today!</p>
+            </div>
+            <img src="gallery10.jpg" alt="Unique architectural details in Roda de Isábena">
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Amenities</h2>
+        <div class="amenities">
+            <div class="amenity">
+                <i class="fas fa-bath"></i>
+                <span>Bath</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-pump-soap"></i>
+                <span>Cleaning Products</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-shower"></i>
+                <span>Shampoo</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-fire"></i>
+                <span>Indoor Fireplace</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-utensils"></i>
+                <span>Fully Equipped Kitchen</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-parking"></i>
+                <span>Free Parking on Premises</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-mountain"></i>
+                <span>Mountain View</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-book"></i>
+                <span>Books for Relaxation</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-hiking"></i>
+                <span>Proximity to Hiking Trails</span>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-utensils"></i>
+                <span>Close to Local Restaurants</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="center">
+        <a href="https://www.airbnb.ie/rooms/1261591800275084326" class="button">Book Your Stay</a>
+    </section>
+
+    <section>
+        <h2 class="section-title">Do You Have Questions?</h2>
+        <p class="section-paragraph">We’re here to help! If you have any questions about the apartment or your stay, feel free to reach out to us directly.</p>
+        <p class="section-paragraph">
+            📩 <strong>Email:</strong> <a href="mailto:visitrodadeisabena@gmail.com">visitrodadeisabena@gmail.com</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Apartment in Roda de Isábena</p>
+    </footer>
+</body>
+</html>
